@@ -7,11 +7,11 @@ for (const [alias, name] of aliasesToNames) {
     }
 }
 
-const {
+import {
     assemble,
-    writeFile,
-    unicodeVersion
-} = require('./utils.js');
+    unicodeVersion,
+    writeFile
+} from './utils.js';
 
 const categories = require(`${unicodeVersion}`).General_Category;
 

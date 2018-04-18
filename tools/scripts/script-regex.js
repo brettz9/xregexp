@@ -1,8 +1,8 @@
-const {
+import {
     assemble,
-    writeFile,
-    unicodeVersion
-} = require('./utils.js');
+    unicodeVersion,
+    writeFile
+} from './utils.js';
 
 const scripts = require(`${unicodeVersion}`).Script;
 

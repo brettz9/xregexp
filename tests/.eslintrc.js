@@ -2,6 +2,9 @@ module.exports = {
     "env": {
         "jasmine": true
     },
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "globals": {
         "XRegExp": true,
         "disableOptInFeatures": true,

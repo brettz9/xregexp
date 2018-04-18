@@ -1,8 +1,8 @@
-const {
+import {
     assemble,
-    writeFile,
-    unicodeVersion
-} = require('./utils.js');
+    unicodeVersion,
+    writeFile
+} from './utils.js';
 
 // This includes only the binary properties required by UTS18 RL1.2 for level 1 Unicode regex
 // support, minus `Assigned` which has special handling since it is the inverse of Unicode category

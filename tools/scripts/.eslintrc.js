@@ -8,5 +8,8 @@ module.exports = {
             "declaration",
             { "allowArrowFunctions": true }
         ],
+    },
+    "parserOptions": {
+        "sourceType": "module"
     }
 }
